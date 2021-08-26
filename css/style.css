@@ -1,0 +1,191 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+
+
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, ol{
+	list-style-type: none;
+}
+
+body{
+	background-image: url("../images/ahnd.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+		font-family: 'Raleway', sans-serif;
+}
+
+
+#container{
+	width: 1000px;
+	height: 1100px;
+	background-color: #BBE1FA;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header{
+ width: 1000px;
+ height: 120px;
+
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+#logo{
+	
+	width: 150px;
+	height: 330px;
+	display: inline-block;
+	background-repeat: no-repeat;
+    background-image: url("../images/der.png");
+    margin-left: 20px;
+    
+}
+
+#menu{
+	width: 820px;
+	height: 120px;
+	background-color: #FF9A3C;
+	display: inline-block;
+	float: right;
+
+}
+
+#menu  li{
+	display: inline-block;
+	
+
+}
+
+
+
+#menu a{
+text-decoration: none;
+	font-size: 22px;
+ color: #A2D5F2;
+
+ font-weight: 500;
+ padding: 0px 14px;
+ height: 110px;
+ display: inline-block;
+ line-height: 110px;
+ margin-left: 26px;
+}
+#menu a:hover{
+	background-color: #FEA82F ;
+}
+
+
+#banner{
+	width: 960px;
+	height: 440px;
+	background-color: #A2DBFA;
+	margin-left: 20px;
+	margin-top: 15px;
+position: relative;
+}
+
+#bannerLeft{
+	position: absolute;
+	width: 300px;
+	height: 340px;
+	background-color: #96BAFF;
+	top: 40px;
+  left: 64px;
+}
+#bannerRight{
+	position: absolute;
+	width: 260px;
+	height: 420px;
+background-color: #96BAFF;
+	
+	right: 35px;
+	bottom: 0px;
+	
+}
+
+
+#bannerLeft h1{
+
+	font-size: 38px;
+	font-weight: 600px;
+ color: #fff;
+}
+
+#bannerLeft h2{
+
+	font-size: 28px;
+	font-weight: 600px;
+ color: #fff;
+ margin-top: 50px;
+}
+
+#bannerRight img{
+	transform: scale(1);
+  position: relative;
+  left: 0px;
+  transition: all 1.4s;
+}
+
+#bannerRight img:hover{
+transform: scale(1.0);
+left: -50px;
+}
+
+
+#homeBoxes{
+	width: 960px;
+	height: 490px;
+	background-color: #035397;
+	margin-left: 20px;
+	text-align: center;
+ }
+
+
+ #box{
+ 	width: 380px;
+ 	height: 470px;
+ 	background-color: #51C4D3 ;
+ 	text-align: center;
+ 	display: inline-block;
+ 	margin: 0px 40px;
+
+ }
+
+
+#circleImage{
+ 	width: 220px;
+ 	height: 230px;
+  overflow: hidden;
+ 	border-radius: 100%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+ 	padding: 50px 0px;
+
+ 	transition: all 0.3s;
+ }
+
+#circleImage:hover{
+	opacity: 0.7;
+}
+
+
+
+
+ h3{
+ 	font-size: 24px;
+ 	font-weight: 700;
+ 	color: #fff;
+ 	margin: 15px 0px;
+ }
